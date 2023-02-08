@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../src/imgs/usource.png';
 import './App.css';
 
 function App() {
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Something great will happen.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.usource.me/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit US!
         </a>
       </header>
     </div>
