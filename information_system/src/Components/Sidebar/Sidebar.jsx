@@ -1,8 +1,16 @@
 import React from 'react'
+import Logo from '../../imgs/usource.png'
+import './Sidebar.css'
 
+import {SidebarData} from '../Data/Data'
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div className="Sidebar">
+        <div className="logo">
+            <img src={Logo} alt="" />
+            <span>Usource</span>
+        </div>
+    </div>
   )
 }
 
